@@ -1,0 +1,54 @@
+========================================
+PASSO A PASSO PARA COLOCAR SEU PORTFÓLIO NA INTERNET
+========================================
+
+PASSO 1: Verifique se está na pasta certa
+------------------------------------------
+- Abra o "Explorador de Arquivos"
+- Vá na pasta: "Meu Portifolio"
+- Verifique se tem os arquivos: index.html, style.css, script.js
+
+PASSO 2: Abra o Terminal (CMD)
+------------------------------------------
+- Aperte a tecla Windows + R
+- Digite: cmd
+- Aperte Enter
+
+PASSO 3: Navegue até a pasta
+------------------------------------------
+No terminal, digite:
+cd desktop\meu portifolio
+
+PASSO 4: Configure o Git remoto
+------------------------------------------
+Digite este comando (tudo junto):
+git remote set-url origin https://github.com/ElianeLunguinho/MEU---REPOSIT-RIO-.git
+
+PASSO 5: Envie os arquivos (PUSH)
+------------------------------------------
+Digite:
+git add .
+git commit -m "meu portfolio"
+git push -u origin main
+
+PASSO 6: Espere terminar e confirme
+------------------------------------------
+Se aparecer algo com "main -> main" e "branch 'main' set up to track...", 
+significa que deu certo!
+
+PASSO 7: Configure o GitHub Pages
+------------------------------------------
+1. Vá em: https://github.com/ElianeLunguinho/MEU---REPOSIT-RIO-/settings/pages
+2. Em "Source", selecione: "Deploy from a branch"
+3. Em "Branch", selecione: "main" e "/ (root)"
+4. Clique em "Save"
+
+PASSO 8: Espere 5 minutos
+------------------------------------------
+Aguarde 5 minutos e acesso:
+https://elianelunguinho.github.io/MEU---REPOSIT-RIO-/
+
+========================================
+PRONTO! Seu portfólio estará no ar!
+========================================
+
