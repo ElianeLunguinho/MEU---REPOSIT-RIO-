@@ -1,13 +1,13 @@
-de# 💼 Portfolio - Eliane Lunguinho
+# 💼 Portfolio - Eliane Lunguinho
 
-[![Deploy](https://img.shields.io/badge/Ver%20Portfolio-Live-brightgreen)](https://elianelunguinho.github.io/MEU-REPOSIT-RIO-/)
+[![Deploy](https://img.shields.io/badge/Ver%20Portfolio-Live-brightgreen)](https://elianelunguinho.github.io/Repositorio-Eliane/)
 [![GitHub](https://img.shields.io/badge/GitHub-ElianeLunguinho-blue)](https://github.com/ElianeLunguinho)
 
 > Este é o portfólio profissional de **Eliane Lunguinho**, desenvolvedora em formação especializada em **Front-End** e **Cloud AWS**.
 
 ## 🔗 Acesse o Portfolio
 
-**Acesse agora:** https://elianelunguinho.github.io/MEU-REPOSIT-RIO-/
+**Acesse agora:** https://elianelunguinho.github.io/Repositorio-Eliane/
 
 ---
 
@@ -82,7 +82,7 @@ O site está publicado utilizando **GitHub Pages**:
 
 1. O repositório foi configurado na branch `main`
 2. Nas configurações do GitHub, foi habilitado o GitHub Pages
-3. O site ficou disponível em: https://elianelunguinho.github.io/MEU-REPOSIT-RIO-/
+3. O site ficou disponível em: https://elianelunguinho.github.io/Repositorio-Eliane/
 
 ### Para fazer updates:
 
