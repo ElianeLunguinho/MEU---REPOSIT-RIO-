@@ -1,0 +1,8 @@
+# Pasta de Projetos
+Guarde os subdiretórios de cada projeto aqui.
+Exemplo:
+projetos/
+ ├── calculadora/
+ ├── blog/
+ └── dashboard/
+
