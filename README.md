@@ -1,4 +1,4 @@
-# 💼 Portfolio - Eliane Lunguinho
+de# 💼 Portfolio - Eliane Lunguinho
 
 [![Deploy](https://img.shields.io/badge/Ver%20Portfolio-Live-brightgreen)](https://elianelunguinho.github.io/MEU-REPOSIT-RIO-/)
 [![GitHub](https://img.shields.io/badge/GitHub-ElianeLunguinho-blue)](https://github.com/ElianeLunguinho)
