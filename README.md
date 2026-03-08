@@ -1,13 +1,13 @@
 # 💼 Portfolio - Eliane Lunguinho
 
-[![Deploy](https://img.shields.io/badge/Ver%20Portfolio-Live-brightgreen)](https://elianelunguinho.github.io/Repositorio-Eliane/)
+[![Deploy](https://img.shields.io/badge/Ver%20Portfolio-Live-brightgreen)](https://meu-reposit-rio-nu.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-ElianeLunguinho-blue)](https://github.com/ElianeLunguinho)
 
 > Este é o portfólio profissional de **Eliane Lunguinho**, desenvolvedora em formação especializada em **Front-End** e **Cloud AWS**.
 
 ## 🔗 Acesse o Portfolio
 
-**Acesse agora:** https://elianelunguinho.github.io/Repositorio-Eliane/
+**Acesse agora:** https://meu-reposit-rio-nu.vercel.app/
 
 ---
 
@@ -76,13 +76,13 @@ portfolio/
 
 ---
 
-## 📱 Deploy - GitHub Pages
+## 📱 Deploy - Vercel
 
-O site está publicado utilizando **GitHub Pages**:
+O site está publicado utilizando **Vercel**:
 
-1. O repositório foi configurado na branch `main`
-2. Nas configurações do GitHub, foi habilitado o GitHub Pages
-3. O site ficou disponível em: https://elianelunguinho.github.io/Repositorio-Eliane/
+1. O repositório foi conectado ao Vercel
+2. O deploy é feito automaticamente a cada push
+3. O site ficou disponível em: https://meu-reposit-rio-nu.vercel.app/
 
 ### Para fazer updates:
 
@@ -91,6 +91,8 @@ git add .
 git commit -m "Atualização do portfólio"
 git push origin main
 ```
+
+O Vercel atualiza automaticamente!
 
 ---
 
