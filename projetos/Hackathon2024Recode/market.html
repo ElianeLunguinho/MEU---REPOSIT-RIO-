@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Informativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="index.html" class="home-button">Portal informativo SOS enchente - RS</a>
+  <header>
+    <h1>Hope Market</h1>
+    <p>O MarketPlace da esperança que ajuda na reconstrução de sonhos e vidas.</p>
+
+   <!-- Botão de Menu -->
+   <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
+   <div class="menu" id="menu">
+       <a class="menu-link" href="index.html">Página Inicial</a>
+       <a class="menu-link" href="monitoramento.html">Sistema de Monitoramento</a>
+       <a class="menu-link" href="preventiva.html">Prevenção e Proteção</a>
+       <a class="menu-link" href="infraestrutura.html">Sistema de Drenagem</a>
+       <a class="menu-link" href="SistemadeAlarme.html">Sistema de Alarme</a>
+       <a class="menu-link" href="auxilio.html">Programas de Auxílio</a>
+       <a class="menu-link" href="central.html">Central de Ajuda</a>
+       <a class="menu-link" href="vagas.html">Banco de Vagas</a>
+       <a class="menu-link" href="market.html">Hope Market</a>
+    </div>
+</header>
+<div>
+  <div class="topico" onclick="toggleConteudo('conteudo1')">Cadastre um produto para doação </div>
+  <div id="conteudo1" class="conteudo">
+      <p><div class="container-x78y">
+        <form class="formulario-r92g">
+            <h2 class="titulo-a73q">Cadastro de nova doação</h2>
+            
+            <label for="nome" class="label-t45j">Produto</label>
+            <input type="text" id="nome" name="nome" class="input-d12p" required>
+            
+            <label for="cidade" class="label-t45j">Cidade</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+            <label for="bairro" class="label-t45j">Bairro</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+            
+            <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+            <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
+            <a href="market.html">Faça upload da foto</a>
+            <button type="submit" class="botao-z91k">Enviar</button>
+        
+            
+            
+        </form>
+    </div><br>
+          
+          </p>
+  </div>
+</div>
+
+<div>
+  <div class="topico" onclick="toggleConteudo('conteudo2')">Cadastre um produto para o Market Aberto</div>
+  <div id="conteudo2" class="conteudo">
+    <p><div class="container-x78y">
+      <form class="formulario-r92g">
+          <h2 class="titulo-a73q">Cadastro de novo produto</h2>
+          
+          <label for="nome" class="label-t45j">Produto</label>
+          <input type="text" id="nome" name="nome" class="input-d12p" required>
+          
+          <label for="cidade" class="label-t45j">Cidade</label>
+          <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+          <label for="bairro" class="label-t45j">Bairro</label>
+          <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+          <label for="bairro" class="label-t45j">Descrição (estado novo, usado, danificado...)</label>
+          <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+          <label for="bairro" class="label-t45j">Preço</label>
+          <input type="number" id="cidade" name="cidade" class="input-d12p" required>
+          
+          <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+          <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
+          <a href="market.html">Faça upload da foto</a>
+          <button type="submit" class="botao-z91k">Enviar</button>
+      
+          
+          
+      </form>
+  </div><br>
+      
+      </p>
+  </div>
+</div>
+
+<div>
+  <div class="topico" onclick="toggleConteudo('conteudo3')">Se torne um lojista conveniado! Clique aqui</div>
+  <div id="conteudo3" class="conteudo">
+      <p><div class="container-x78y">
+        <form class="formulario-r92g">
+            <h2 class="titulo-a73q">Cadastro para novo lojista conveniado</h2>
+            
+            <label for="nome" class="label-t45j">Nome da Empresa</label>
+            <input type="text" id="nome" name="nome" class="input-d12p" required>
+            
+            <label for="cidade" class="label-t45j">Cidade</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+  
+            <label for="bairro" class="label-t45j">Endereço</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+  
+            <label for="bairro" class="label-t45j">CNPJ</label>
+            <input type="number" id="cidade" name="cidade" class="input-d12p" required>
+            
+            <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+            <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
+            <a href="market.html">Faça upload da CCEL - CERTIFICADO DE CRÉDITO EMERGENCIAL LOJISTA</a>
+            <button type="submit" class="botao-z91k">Enviar</button>
+        
+            
+            
+        </form>
+    </div>
+Preencha as informaçoes do formulario<br>
+        Apresente os documentos necessários<br>
+        Aguarde o nosso contato para confirmar sua inscrição! </p>
+</div>
+        
+          <div class="topico" onclick="toggleConteudo('conteudo4')">CADASTRE-SE PARA COMPRAR OS PRODUTOS DE LOJAS CONVENIADAS Clique aqui</div>
+  <div id="conteudo4" class="conteudo">
+      <p><div class="container-x78y">
+        <form class="formulario-r92g">
+            <h2 class="titulo-a73q">Cadastro para comprar produtos de lojistas conveniados</h2>
+            
+            <label for="nome" class="label-t45j">Nome completo</label>
+            <input type="text" id="nome" name="nome" class="input-d12p" required>
+            
+            <label for="cidade" class="label-t45j">Cidade</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+  
+            <label for="bairro" class="label-t45j">Endereço</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+  
+            <label for="bairro" class="label-t45j">CPF ou RG</label>
+            <input type="number" id="cidade" name="cidade" class="input-d12p" required>
+            
+            <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+            <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
+            <a href="market.html">Faça upload da CCEPF - CERTIFICADO DE CRÉDITO EMERGENCIAL PESSOA FÍSICA</a>
+            <button type="submit" class="botao-z91k">Enviar</button>
+        
+            
+            
+        </form>
+    </div>
+  
+    <p>Preencha as informaçoes do formulario<br>
+Apresente os documentos necessários<br>
+Aguarde o nosso contato para confirmar sua inscrição!</p>
+</div><br>
+           
+  </div>   
+</div>
+
+<div>
+  <div class="topico" onclick="toggleConteudo('conteudo5')">CONHEÇA MAIS SOBRE O CRÉDITO EMERGENCIAL RECONSTRUÇÃO: COMO OBTER CADASTRO PARA LOJISTAS E PESSOAS AFETADAS PELAS ENCHENTES RECONSTRUIREM SEUS SONHOS!</div>
+  <div id="conteudo5" class="conteudo">
+    <h1>O que é Crédito Emergencial?</h1>
+    <p>
+        O crédito emergencial é uma iniciativa que auxilia a mitigação do impacto econômico gerado pelas enchentes em 2024 no Rio Grande do Sul,
+        em especial para pessoas em vulnerabilidade econômica, incluindo os comerciantes locais de cada cidade que possui convênio com o programa.
+        Dessa forma, o crédito emergencial visa à reconstrução dos sonhos das pessoas, suas casas e comércios.
+    </p>
+
+    <h2>Para quem serve o Crédito Emergencial?</h2>
+
+    <h3>Para empreendedores e empresas de médio e pequeno porte:</h3>
+    <p>O crédito emergencial atende a empreendedores e empresas que atuam no comércio de produtos essenciais para a reconstrução de casas, eletrodomésticos, e outros itens de necessidade básica.</p>
+    <h4>Benefícios:</h4>
+    <ul>
+        <li>Linha de crédito pré-autorizada para investimento</li>
+        <li>Isenção temporária de imposto municipal</li>
+        <li>Maior facilidade em aprovação de crédito para investimento comercial</li>
+        <li>Participação nos subsídios municipais e estaduais</li>
+        <li>Maior fluxo de caixa</li>
+    </ul>
+
+    <h3>Para pessoas físicas:</h3>
+    <p>As pessoas físicas que tiverem direito ao programa poderão comprar a preço reduzido de mercado, com parcelamento prolongado, mesmo estando com nome restrito no SPC e SERASA, auxiliando assim na reconstrução de suas vidas.</p>
+
+    <h3>Requisitos para pessoas físicas participarem:</h3>
+    <ul>
+        <li>Estar incluído na base de dados de vulneráveis pelas enchentes da sua cidade, através de uma apresentação da declaração de vulnerabilidade (pode ser obtido no CRAS da sua cidade).</li>
+        <li>Através da declaração de vulnerabilidade, é possível então, se for comprovado, solicitar na prefeitura da sua cidade o <strong>CCEPF - Certificado de Pessoa Física</strong>. Com isso em mãos, você terá direito a produtos com flexibilidade de preço e parcelamento de acordo com sua capacidade econômica, mesmo estando com restrição no SPC ou SERASA.</li>
+    </ul>
+
+    <h3>Requisitos para lojistas participarem:</h3>
+    <ul>
+        <li>Estar ciente do risco de inadimplência</li>
+        <li>Usar os benefícios dos lojistas com zelo</li>
+        <li>Apresentar o <strong>CCEL - Certificado de Crédito Emergencial Lojista</strong></li>
+    </ul>   
+  </div>   
+</div>
+<br><br>
+<div class="container">
+  <div class="categoria-container" style="text-align: center;"> <!-- Centraliza o texto dentro da div -->
+    <button class="btn-categoria" onclick="showProdutos('eletronicos')">Doações</button>
+    <button class="btn-categoria" onclick="showProdutos('cosmeticos')">Produtos Essenciais</button>
+    <button class="btn-categoria" onclick="showProdutos('alimentos')">Convenio de lojista</button>
+    <button class="btn-categoria" onclick="showProdutos('outros')">HOPE Market Geral</button>
+</div>
+
+  <div class="produtos-container" id="produtos" style="text-align: center;">
+      <div class="produto" id="eletronicos" style="display: none;">
+          <h3>Doaçoes mais próximas do seu local:</h3>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+      </div>
+
+      <div class="produto" id="cosmeticos" style="display: none;">
+          <h3>Produtos essenciais, fornecedores mais próximos do seu local:</h3>
+          <div class="produto-item">
+            <img src="agua.jpg" alt="Produto 1">
+            <h3>Galão de agua 20litroas</h3>
+            <p>Cidade: Porto Alegre <br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$20,00
+          </div>
+          <div class="produto-item">
+            <img src="agua.jpg" alt="Produto 1">
+            <h3>Galão de agua 20litroas</h3>
+            <p>Cidade: Porto Alegre <br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$20,00
+          </div>
+          <div class="produto-item">
+            <img src="agua.jpg" alt="Produto 1">
+            <h3>Galão de agua 20litroas</h3>
+            <p>Cidade: Porto Alegre <br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$20,00
+          </div>
+      </div>
+
+      <div class="produto" id="alimentos" style="display: none;">
+          <h3>Produtos de lojistas conveniados da sua cidade:</h3>
+          <div class="produto-item">
+            <img src="cimento.jpg" alt="Produto 1">
+            <h3>Cimento 50kg</h3>
+            <p>Cidade: Porto Alegre <br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$ 45,00 à vista <br>R$ 50,00 à prazo até 18x acima de 20 unidades
+          </div>
+          <div class="produto-item">
+            <img src="cimento.jpg" alt="Produto 1">
+            <h3>Cimento 50kg</h3>
+            <p>Cidade: Porto Alegre <br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$ 45,00 à vista <br>R$ 50,00 à prazo até 18x acima de 20 unidades
+          </div>
+          <div class="produto-item">
+            <img src="cimento.jpg" alt="Produto 1">
+            <h3>Cimento 50kg</h3>
+            <p>Cidade: Porto Alegre <br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$ 45,00 à vista <br>R$ 50,00 à prazo até 18x acima de 20 unidades
+          </div>
+      </div>
+
+      <div class="produto" id="outros" style="display: none;">
+          <h3>Outros Produtos mais próximos de você:</h3>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$ 200,00
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$ 200,00
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+              Preço: R$ 200,00
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+  function showProdutos(categoria) {
+      // Oculta todos os produtos
+      document.querySelectorAll('.produto').forEach(function(produto) {
+          produto.style.display = 'none';
+      });
+      // Mostra a categoria selecionada
+      document.getElementById(categoria).style.display = 'block';
+  }
+  </script>
+
+  <footer>
+    <p>&copy; 2024 Protótipo de Marketplace - Desenvolvido para demonstração</p>
+  </footer>
+
+  <!-- Script para exibir ou ocultar as seções -->
+  <script>
+    function toggleCategory(categoryId) {
+      const category = document.getElementById(categoryId);
+      category.style.display = category.style.display === 'none' ? 'flex' : 'none';
+    }
+  </script>
+<script src="script.js"></script>
+</body>
+</html>
